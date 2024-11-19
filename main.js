@@ -21,7 +21,8 @@ function compute()
 	/* Show the time and mod message in the DOM. */
 	const s_frame = ~~(s_time * fps);
 	const e_frame = ~~(e_time * fps);
-	const time = time_format(seconds);
+	//const time = time_format(seconds);
+	const time = seconds;
 
 	document.getElementById("time").value = time;
 	document.getElementById("mod_message").disabled = false;
